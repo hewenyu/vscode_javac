@@ -18,7 +18,9 @@
 	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
 		"java.home": "/docker-java-home",
-		"maven.executable.path": "/usr/local/sdkman/candidates/maven/current/bin/mvn"
+		"maven.executable.path": "/usr/local/sdkman/candidates/maven/current/bin/mvn",
+		"editor.formatOnType": true,
+		"editor.formatOnSave": true,
 	},
 	
 	// Add the IDs of extensions you want installed when the container is created.
