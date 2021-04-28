@@ -1,6 +1,6 @@
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.159.0/containers/java/.devcontainer/base.Dockerfile
-ARG VARIANT="14"
-FROM mcr.microsoft.com/vscode/devcontainers/java:0-${VARIANT}
+ARG VARIANT="15"
+FROM hewenyulucky/vscode-java:${VARIANT}
 
 # [Optional] Install Maven or Gradle
 ARG INSTALL_MAVEN="false"
